@@ -1,0 +1,10 @@
+# In order to allow AWS Inspector to scan EC2 instances, the Inspector agent will need to be installed. The two lines of code below will download, and install the agent.
+
+# Download Agent:
+# wget https://inspector-agent.amazonaws.com/linux/latest/install
+
+# Install Agent:
+# sudo bash install
+
+# Restart Linux based EC2 instance:
+# sudo shutdown -r 0
