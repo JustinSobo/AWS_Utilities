@@ -1,2 +1,7 @@
-# Run Terminal as Admin:
-msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
+# 1. Run Terminal as Admin:
+"msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi"
+
+# 2. Restart Terminal for changes to take effect.
+
+# 3. Run this to check what version of AWS CLI is installed:
+"aws --version"
