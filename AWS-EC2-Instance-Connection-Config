@@ -1,0 +1,17 @@
+# Prerequisites:
+# Existing EC2 instance.
+# Instance security group has inbound rules for port 22 open (SSH).
+# Key pair has been created, and private key has been downloaded.
+
+# 1. Open SSH Client - (PuTTY, Terminal, Console Emulator).
+# 2. "ssh -i PRIVATE_KEY.PEM USERNAME@PUBLIC IPV4 DNS" -> Example: "ssh -i my_ec2_private_key.pem ubuntu@ec2-a-b-c-d.us-west-2.compute.amazonaws.com"
+# 3. If using an Ubuntu: (Ensures latest Ubuntu AMI)
+# 3a. "sudo apt-get update"
+# 3b. "sudo apt-get upgrade"
+# 4. "sudo apt-get install ec2-instance-connect"
+# 4a. /usr/share/ec2-instance-connect$ (Should now contain the following):
+#   eic_curl_authorized_keys, eic_harvest_hostkeys, eic_parse_authorized_keys, eic_run_authorized_keys
+# 5. Install PIP using:
+# "sudo apt install python-pip"
+# 6. Install EC2 Instance Connect CLI package
+"pip install ec2instanceconnectcli"
