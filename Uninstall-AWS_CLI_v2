@@ -1,0 +1,7 @@
+# 1. Open Terminal as Admin and run the following:
+"appwiz.cpl"
+
+# 2. It's a good idea to restart Terminal for changes to be reflected in the console.
+
+# 3. Check what version of AWS is installed (this should help verify that AWS CLI has been uninstalled correctly).
+"aws --version"
